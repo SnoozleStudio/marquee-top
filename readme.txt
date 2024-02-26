@@ -4,7 +4,7 @@ Tags: marquee, running text, slider, text slider
 Requires at least: 6.4
 Tested up to: 6.4
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,3 +18,7 @@ Marquee Top is the WordPress plugin that developed by Paolo Mason, Front-End Dev
 
 = 1.0.0 (2024-01-06): =
 - First Release.
+
+= 1.0.1 (2024-02-26): =
+- Fix textdomain_mismatch
+

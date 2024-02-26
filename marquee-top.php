@@ -10,10 +10,10 @@
  * @wordpress-plugin
  * Plugin Name:       Marquee Top
  * Description:       Add marquee at the top header.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 6.4
  * Requires PHP:      7.4
- * Author:            Paolo Mason
+ * Author:            Snoozle Studio
  * Author URI:        https://snoozle.studio
  * Text Domain:       ssmt
  * License:           GPL v2 or later
