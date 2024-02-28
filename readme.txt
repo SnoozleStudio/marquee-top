@@ -28,3 +28,4 @@ Marquee Top is the WordPress plugin that developed by Paolo Mason, Front-End Dev
 - remove unneeded comments on style.css
 - remove unneeded console.log and comments on script.js
 - edit and add style to console.log message.
+- the marquee top is avaible only if is `blog homepage` or `front page`.

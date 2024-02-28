@@ -105,13 +105,15 @@ function ssmt_render_url_field()
 }
 
 // Background Color field callback
-function ssmt_render_bg_color_field() {
+function ssmt_render_bg_color_field()
+{
   $bg_color = get_option('ssmt_marquee_bg_color');
   echo '<input type="text" name="ssmt_marquee_bg_color" value="' . esc_attr($bg_color) . '" />';
 }
 
 // Span Color field callback
-function ssmt_render_span_color_field() {
+function ssmt_render_span_color_field()
+{
   $span_color = get_option('ssmt_span_color');
   echo '<input type="text" name="ssmt_span_color" value="' . esc_attr($span_color) . '" />';
 }
@@ -119,21 +121,23 @@ function ssmt_render_span_color_field() {
 // Marquee function
 function ssmt_render_marquee()
 {
-  $text = get_option('ssmt_marquee_text', '');
-  $speed = floatval(get_option('ssmt_marquee_speed', 0.55));
-  $url = esc_url(get_option('ssmt_marquee_url', ''));
-  $bg_color   = get_option('ssmt_marquee_bg_color');
-  $span_color = get_option('ssmt_span_color');
+  if (is_home() || is_front_page()) {
+    $text = get_option('ssmt_marquee_text', '');
+    $speed = floatval(get_option('ssmt_marquee_speed', 0.55));
+    $url = esc_url(get_option('ssmt_marquee_url', ''));
+    $bg_color = get_option('ssmt_marquee_bg_color');
+    $span_color = get_option('ssmt_span_color');
 
-  $marquee_style = !empty($bg_color) ? ' style="background-color: ' . esc_attr($bg_color) . ';"' : '';
-  $span_style = !empty($span_color) ? ' style="color: ' . esc_attr($span_color) . ';"' : '';
+    $marquee_style = !empty($bg_color) ? ' style="background-color: ' . esc_attr($bg_color) . ';"' : '';
+    $span_style = !empty($span_color) ? ' style="color: ' . esc_attr($span_color) . ';"' : '';
 
-  $marquee = '<div class="marquee3k" data-speed="' . esc_attr($speed) . '"' . $marquee_style . '><span' . $span_style . '>' . esc_html($text) . '</span></div>';
-  if (!empty($url)) {
-    $marquee = '<a href="' . esc_url($url) . '">' . $marquee . '</a>';
+    $marquee = '<div class="marquee3k" data-speed="' . esc_attr($speed) . '"' . $marquee_style . '><span' . $span_style . '>' . esc_html($text) . '</span></div>';
+    if (!empty($url)) {
+      $marquee = '<a href="' . esc_url($url) . '">' . $marquee . '</a>';
+    }
+
+    echo '<div class="container-marquee">' . wp_kses_post($marquee) . '</div>';
   }
-
-  echo '<div class="container-marquee">' . wp_kses_post($marquee) . '</div>';
 }
 
 add_action('wp_body_open', 'ssmt_render_marquee');
