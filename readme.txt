@@ -22,3 +22,9 @@ Marquee Top is the WordPress plugin that developed by Paolo Mason, Front-End Dev
 = 1.0.1 (2024-02-26): =
 - Fix textdomain_mismatch
 
+= 1.0.2 (2024-02-28): =
+- remove node_modules folder
+- change the padding-right of single string from 30px to 3ch
+- remove unneeded comments on style.css
+- remove unneeded console.log and comments on script.js
+- edit and add style to console.log message.
