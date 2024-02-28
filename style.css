@@ -1,16 +1,8 @@
-/* Parent container of a .marquee3k element */
 .container-marquee {
-  /* transform: rotate(45deg); */
-  /* background-color: blue; */
-  /* padding-top: .618rem; */
-  /* padding-bottom: .618rem; */
   overflow: hidden;
 }
 
 .marquee3k__copy {
-  /* margin-top: 0; */
-  /* margin-bottom: 0; */
-  /* color: white; */
-  padding-right: 30px;
+  padding-right: 3ch;
   box-sizing: border-box;
 }
