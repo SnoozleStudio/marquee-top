@@ -4,11 +4,14 @@ Tags: marquee, running text, slider, text slider
 Requires at least: 6.4
 Tested up to: 6.4
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Add marquee at the top header.
+
+== Dependencies ==
+Marquee3000: https://github.com/ezekielaquino/Marquee3000
 
 == Description ==
 
@@ -29,3 +32,9 @@ Marquee Top is the WordPress plugin that developed by Paolo Mason, Front-End Dev
 - remove unneeded console.log and comments on script.js
 - edit and add style to console.log message.
 - the marquee top is avaible only if is `blog homepage` or `front page`.
+
+= 1.0.3 (2024-03-11): =
+- fix versions.
+- remove compressed content dependency.
+- add new non compressed content dependency.
+- add Dependencies on readme.txt

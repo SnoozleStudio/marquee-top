@@ -10,7 +10,7 @@
  * @wordpress-plugin
  * Plugin Name:       Marquee Top
  * Description:       Add marquee at the top header.
- * Version:           1.0.2
+ * Version:           1.0.3
  * Requires at least: 6.4
  * Requires PHP:      7.4
  * Author:            Snoozle Studio
@@ -28,8 +28,8 @@ if (!defined('ABSPATH')) {
 function ssmt_enqueue_scripts()
 {
   wp_enqueue_style('ssmt-style', plugins_url('style.css', __FILE__));
-  wp_enqueue_script('ssmt-marquee3000', plugins_url('marquee3k.min.js', __FILE__), array('jquery'), '1.0.0', true);
-  wp_enqueue_script('ssmt-script', plugins_url('script.js', __FILE__), array('ssmt-marquee3000'), '1.0.0', true);
+  wp_enqueue_script('ssmt-marquee3000', plugins_url('marquee3k.js', __FILE__), array('jquery'), '1.0', true);
+  wp_enqueue_script('ssmt-script', plugins_url('script.js', __FILE__), array('ssmt-marquee3000'), '1.0.3', true);
 }
 add_action('wp_enqueue_scripts', 'ssmt_enqueue_scripts');
 
