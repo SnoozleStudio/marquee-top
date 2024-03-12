@@ -1,10 +1,10 @@
 === Marquee Top - Add marquee at the top header ===
-Contributors: Snoozle Studio
+Contributors: paagr
 Tags: marquee, running text, slider, text slider
 Requires at least: 6.4
 Tested up to: 6.4
 Requires PHP: 7.4
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,3 +38,6 @@ Marquee Top is the WordPress plugin that developed by Paolo Mason, Front-End Dev
 - remove compressed content dependency.
 - add new non compressed content dependency.
 - add Dependencies on readme.txt
+
+= 1.0.4 (2024-03-12): =
+- fix Contributors field
