@@ -11,7 +11,7 @@
  * Plugin Name:       Marquee Top
  * Description:       Add marquee at the top header.
  * Version:           1.0.5
- * Requires at least: 6.4
+ * Requires at least: 6.4.3
  * Requires PHP:      7.4
  * Author:            paagr
  * Author URI:        https://snoozle.studio

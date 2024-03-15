@@ -1,8 +1,8 @@
 === Marquee Top - Responsive Text Scroll Plugin ===
 Contributors: paagr
 Tags: marquee, text, header, scroll, animation
-Requires at least: 6.4
-Tested up to: 6.4
+Requires at least: 6.4.3
+Tested up to: 6.4.3
 Requires PHP: 7.4
 Stable tag: 1.0.5
 License: GPLv2 or later
