@@ -28,7 +28,7 @@ You can customize the Marquee text through the Marquee Top screen in your WordPr
 
 == Dependencies ==
 
-Marquee3000: https://github.com/ezekielaquino/Marquee3000
+Marquee3000: [GitHub Repository](https://github.com/ezekielaquino/Marquee3000)
 
 == Seeking Feedback and Improvements ==
 
@@ -46,8 +46,6 @@ Thank you for choosing Marquee Top for your WordPress website. We look forward t
 
 = 1.0.0 (2024-01-06): =
 - First Release.
-
-== Upgrade Notice ==
 
 = 1.0.1 (2024-02-26): =
 - Fix textdomain_mismatch
