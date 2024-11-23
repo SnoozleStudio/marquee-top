@@ -11,6 +11,11 @@ if (nextElement) {
 
 window.addEventListener('resize', () => {
 	Marquee3k.refreshAll();
+
+	if (nextElement) {
+		marqueeHeight = marquee.offsetHeight;
+		nextElement.style.marginTop = marqueeHeight + 'px';
+	}
 });
 
 console.log(
