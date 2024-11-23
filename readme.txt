@@ -73,6 +73,6 @@ Thank you for choosing Marquee Top for your WordPress website. We look forward t
 - update readme.txt
 - edit style.css, added `position: relative;` and `z-index: 2000;` to `.container-marquee`.
 
-= 1.0.6 (2024-03-15): =
+= 1.0.6 (2024-11-23): =
 - update readme.txt
 - add responsive margin top to next element on DOM
