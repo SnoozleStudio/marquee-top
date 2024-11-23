@@ -8,11 +8,12 @@ Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Marquee Top is a flexible WordPress plugin that adds a customizable marquee text to your site's top header, allowing you to adjust its appearance, speed, and behavior to suit your style and boost user engagement.
+Marquee Top is a WordPress plugin that adds customizable marquee text to your site's top header, letting you adjust its style and speed.
 
 == Description ==
 
-Marquee Top is a WordPress plugin that lets you effortlessly add a responsive marquee text to the top header of your website. With fully customizable options, you can tailor its appearance, speed, and behavior to fit your specific needs.
+Marquee Top is a WordPress plugin that lets you effortlessly add a responsive marquee text to the top header of your website.
+With fully customizable options, you can tailor its appearance and speed to fit your specific needs.
 
 Developed by Paolo Mason, Front-End Developer at Snoozle Studio—a Worldwide Digital Creative Agency based in Pescara, Italy—Marquee Top combines functionality and flexibility for a seamless user experience.
 
