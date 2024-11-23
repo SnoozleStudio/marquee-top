@@ -1,7 +1,14 @@
 .container-marquee {
   overflow: hidden;
-  position: relative;
-  z-index: 2000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.marquee3k {
+  padding: 4px 0;
 }
 
 .marquee3k__copy {

@@ -1,5 +1,14 @@
 Marquee3k.init();
 
+const marquee = document.querySelector('.container-marquee');
+
+const nextElement = marquee.nextElementSibling;
+
+if (nextElement) {
+	marqueeHeight = marquee.offsetHeight;
+	nextElement.style.marginTop = marqueeHeight + 'px';
+}
+
 window.addEventListener('resize', () => {
 	Marquee3k.refreshAll();
 });
